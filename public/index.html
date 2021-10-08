@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Bookmark Landing </title>
+</head>
+
+<body class="font-Poppins overflow-x-hidden">
+    <!-- Header Start -->
+    <header>
+        <nav class="container flex items-center py-4 mt-4 sm:mt-12">
+            <div class="py-1">
+                <img src="./imgs/logo-bookmark.svg" alt="">
+            </div>
+            <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-blue uppercase text-xs">
+                <li class="cursor-pointer">Features</li>
+                <li class="cursor-pointer">Pricing</li>
+                <li class="cursor-pointer">Contact</li>
+                <button type="button" class="bg-bookmark-red text-white rounded-md px-7 py-3 uppercase">Login</button>
+            </ul>
+            <div class="flex sm:hidden flex-1 justify-end">
+                <i class="fas fa-bars text-2xl"></i>
+            </div>
+        </nav>
+    </header>
+    <!-- Header End -->
+
+    <!-- Hero Start -->
+    <section class="relative">
+        <div class="container flex flex-col-reverse lg:flex-row gap-12 mt-14 lg:nt-28 ">
+            <!-- Content Start -->
+            <div class="flex flex-1 flex-col items-center lg:items-start ">
+                <h2 class="text-bookmark-blue text-3xl md:tex-4 lg-text-5xl text-center lg:text-left mb-6 ">
+                    A Simple Bokmark Manager
+                </h2>
+                <p class="text-bookmark-gray text-lg text-center lg:text-left mb-6">
+                    A clean and simple interface to organize your favourite websites. Open a new browser tab and see
+                    your sites load instantly. Try it for free.
+                </p>
+                <div class="flex justify-center flex-wrap gap-6 sm:justify-start">
+                    <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">Get it on
+                        Chrome</button>
+
+                    <button type="button" class="btn btn-white hover:bg-bookmark-purple hover:text-white">Get it on
+                        Firefox</button>
+                </div>
+            </div>
+            <!-- Content End -->
+            <!-- Image Start -->
+            <div class="flex justify-center flex-1 mb-10  md:mb-16 lg:mb-0 z-10">
+                <img class="w-5/6 h-5/8 sm:w-3/4 sm:h-3/4 md:-full md:h-full " src="./imgs/hero-bg.png" alt="">
+            </div>
+            <!-- Image End -->
+        </div>
+        <!-- Rounded Rectangle -->
+        <div
+            class="hidden md:block overflow-hidden bg-bookmark-purple rounded-l-full absolute h-80 w-2/4 top-32 right-0 lg:-bottom-20 lg:-right-36">
+
+        </div>
+
+    </section>
+    <!-- Hero End -->
+
+    <!-- Features Start -->
+    <section class="bg-bookmark-white py-20 mt-20 lg:mt-60">
+        <!-- Heading  -->
+        <div class="sm:width-3/4 lg:width-5/12 mx-auto px-2">
+            <h1 class="text-3xl text-center text-bookmark-blue">Features</h1>
+            <p class="text-center text-bookmark-gray mt-4">
+                Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync
+                between your devices so you can access them on the go.
+            </p>
+        </div> 
+        <!-- Feature #1 -->
+        <div class="relative mt-20 lg:mt-24">
+            <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+                <!-- Image -->
+                <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0 ">
+                    <img src="./imgs/illustration-features-tab-1.png" alt="Features">
+                </div>
+            </div>
+        </div>
+        
+    <!-- Features End -->
+    </section>
+
+
+</body>
+
+</html>
